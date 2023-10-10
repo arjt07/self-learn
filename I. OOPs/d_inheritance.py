@@ -1,4 +1,6 @@
-# SUPER class
+# SUPER class --->
+# ---------------
+
 class Wizard:
     def __init__(self, name):
         if not name: 
@@ -20,5 +22,8 @@ wizard = Wizard("Albus")
 student = Student("Harry", "Gryffindor")
 professor = Professor("Severus", "Defence Against the Dark Arts")
         
-        
+print(f"Wizard name is: {wizard.name}") 
+print(f"{student.name} is from {student.house}") 
+print(f"{professor.name} teaches {professor.subject}") 
+  
         
